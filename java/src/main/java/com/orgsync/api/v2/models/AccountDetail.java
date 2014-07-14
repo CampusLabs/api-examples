@@ -4,7 +4,9 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Created by steffyj on 7/14/14.
+ * A POJO for the response for an Account.
+ *
+ * NOTE: This doesn't include the custom profile fields yet.
  */
 public class AccountDetail {
 

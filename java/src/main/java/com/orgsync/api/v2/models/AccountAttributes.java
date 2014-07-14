@@ -63,4 +63,19 @@ public class AccountAttributes {
     public String getZip() {
         return zip;
     }
+
+    @Override
+    public String toString() {
+        return "AccountAttributes{" +
+                "emailAddress='" + emailAddress + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", middleInitial='" + middleInitial + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                ", address='" + address + '\'' +
+                ", city='" + city + '\'' +
+                ", state='" + state + '\'' +
+                ", zip='" + zip + '\'' +
+                '}';
+    }
 }

@@ -53,4 +53,17 @@ public class AccountCreateRequest {
     public List<String> getIdentificationCardNumbers() {
         return identificationCardNumbers;
     }
+
+    @Override
+    public String toString() {
+        return "AccountCreateRequest{" +
+                "username='" + username + '\'' +
+                ", sendWelcome=" + sendWelcome +
+                ", welcomeMessage='" + welcomeMessage + '\'' +
+                ", accountAttributes=" + accountAttributes +
+                ", portals=" + portals +
+                ", groups=" + groups +
+                ", identificationCardNumbers=" + identificationCardNumbers +
+                '}';
+    }
 }
