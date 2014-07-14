@@ -4,24 +4,25 @@ Java examples of using [OrgSync API V2][os-api] to perform various tasks.
 
 ## Usage
 
-This project is built and ran using [Gradle][gradle].  Please follow the 
-[install instruction][gradle-install] to get started.
+This project is built and ran using [Gradle][gradle].  Please follow the
+[install instructions][gradle-install] to get started.
 
 To compile the examples:
 
     gradle build
-    
+
 To run a specific example:
 
     gradle [example name]
-    
+
 ## Examples
 
 The following examples are available.
 
 ### Account Creation
+To run: `gradle accountCreate`
 
-Creates an account using the [account creation endpoint][create-docs].  
+Creates an account using the [account creation endpoint][create-docs].
 
  [os-api]: https://api.orgsync.com/api/docs/v2
  [gradle]: http://www.gradle.org/
